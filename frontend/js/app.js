@@ -287,7 +287,7 @@ function setTotalPrice() {
   }
   console.log(info.deploymentConfig)
   console.log(mintInputValue)
-  const totalPriceWei = BigInt(0.01) * BigInt(mintInputValue);
+  const totalPriceWei = 0.01 * BigInt(mintInputValue);
   
   let priceType = '';
   if(chain === 'goerli' || chain === 'ethereum') {
